@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Playpen+Sans:wght@300&family=Teko&display=swap');
+body{
+    background-image: url('https://img.freepik.com/free-vector/colorful-geometric-banner-background-minimal-cover-template-design-web-modern-abstract-background-with-geometric-shapes-lines-eps10-vector_1142-8903.jpg?w=360');
+    background-size:50%;
+}
+
+#btnInfo {
+    background-color: rgb(130, 166, 231);
+}
+
+.heading {
+    font-size: 24px;
+    width: 100%;
+    margin:0px;
+    box-shadow:5px 5px 5px rgb(125, 158, 180);
+    font-family: playpen sans;
+}
+
+.note {
+    font-size: 19px;
+    color: rgba(201, 11, 36, 0.767);
+    font-family:teko;
+}
+
+.copy_right_footer{
+    position:fixed;
+    color:white;
+    bottom:0;
+    width:100%;
+    background-color:rgb(145, 148, 153);
+    line-height:2.8;
+    text-align:center;
+    font-family: overpass;
+}
+
+canvas, video {
+    border:5px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(110, 177, 190);
+    background-color: white;
+}
